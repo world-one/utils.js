@@ -1,0 +1,12 @@
+{
+  "name": "utils.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/world-one/utils.js.git",
+  "author": "world-one <worldone85@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esm": "^3.2.25"
+  },
+  "type": "module"
+}
