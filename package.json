@@ -5,8 +5,12 @@
   "repository": "https://github.com/world-one/utils.js.git",
   "author": "world-one <worldone85@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
-    "esm": "^3.2.25"
+    "esm": "^3.2.25",
+    "jest": "^28.0.0"
   },
   "type": "module"
 }

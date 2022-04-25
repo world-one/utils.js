@@ -12,7 +12,8 @@ function isEmpty(target) {
   }
 }
 
-export default isEmpty;
+module.exports = { isEmpty };
+// export default isEmpty;
 
 function isEmptyObject(obj) {
   return Object.keys(obj).length === 0;
