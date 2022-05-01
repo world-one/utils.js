@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {},
+  "files": [
+    "./utils/isEmpty.ts",
+    "./utils/randomNumber.ts"
+  ]
+}
