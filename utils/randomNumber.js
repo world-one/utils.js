@@ -1,4 +1,6 @@
+"use strict";
+exports.__esModule = true;
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
-module.exports = { randomNumber: randomNumber };
+exports["default"] = randomNumber;

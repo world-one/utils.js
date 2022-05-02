@@ -1,5 +1,4 @@
-const { randomNumber } = require('../randomNumber');
-
+import randomNumber from '../randomNumber'
 
 describe('random number', () => {
   test('number', () => {

@@ -1,5 +1,4 @@
-const { isEmpty } = require('../isEmpty');
-
+import isEmpty from '../isEmpty'
 
 describe('is Empty', () => {
   test('Object', () => {

@@ -12,8 +12,7 @@ function isEmpty(target: any): boolean {
   }
 }
 
-module.exports = { isEmpty };
-// export default isEmpty;
+export default isEmpty;
 
 function isEmptyObject(obj: Record<any, any>): boolean {
   return Object.keys(obj).length === 0;
