@@ -14,7 +14,6 @@ function isEmpty(target) {
         default: return target;
     }
 }
-
 exports["default"] = isEmpty;
 function isEmptyObject(obj) {
     return Object.keys(obj).length === 0;

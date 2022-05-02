@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "outDir": "./utils"
+    "outDir": "./utils",
+    "module": "commonjs",
   },
   "include": [
     "src/*.ts"
