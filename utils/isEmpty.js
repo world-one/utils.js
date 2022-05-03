@@ -1,5 +1,5 @@
 "use strict";
-exports.__esModule = true;
+Object.defineProperty(exports, "__esModule", { value: true });
 function isEmpty(target) {
     if (target === undefined || target === null)
         return target;
@@ -14,7 +14,7 @@ function isEmpty(target) {
         default: return target;
     }
 }
-exports["default"] = isEmpty;
+exports.default = isEmpty;
 function isEmptyObject(obj) {
     return Object.keys(obj).length === 0;
 }
