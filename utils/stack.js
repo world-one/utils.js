@@ -1,10 +1,12 @@
 "use strict";
-var __spreadArrays = (this && this.__spreadArrays) || function () {
-    for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
-    for (var r = Array(s), k = 0, i = 0; i < il; i++)
-        for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++)
-            r[k] = a[j];
-    return r;
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var Stack = /** @class */ (function () {
@@ -26,7 +28,7 @@ var Stack = /** @class */ (function () {
         configurable: true
     });
     Stack.prototype.push = function (element) {
-        this.result = __spreadArrays(this.result, [element]);
+        this.result = __spreadArray(__spreadArray([], this.result, true), [element], false);
     };
     Stack.prototype.pop = function () {
         var lastIndex = this.result.length - 1;
